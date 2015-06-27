@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tdumitrescu/sequelize-tools.png?branch=master)](https://travis-ci.org/tdumitrescu/sequelize-tools)
+[![Build Status](https://travis-ci.org/dimitri-koenig/sequelize-tools.png?branch=master)](https://travis-ci.org/dimitri-koenig/sequelize-tools)
 
 # sequelize-tools
 
@@ -8,7 +8,7 @@ Tools to facilitate choosing and initializing database connections with the Node
 
 Add `sequelize-tools` to dependencies in `package.json`:
 
-    npm install --save sequelize-tools
+    npm install --save https://github.com/dimitri-koenig/sequelize-tools/tarball/master
 
 ## Usage
 
