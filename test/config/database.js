@@ -1,11 +1,11 @@
 exports.DBConfig = {
-  test: {
-    dbName:   "sequelize_tools_test",
-    user:     "postgres",
-    password: "password",
-    options: {
-      dialect: "postgres",
-      port:    5432
+    test: {
+        dbName:   'sequelize_tools_test',
+        user:     null,
+        password: null,
+        options:  {
+            dialect: 'sqlite',
+            storage: __dirname + '/../../testdb.sqlite'
+        }
     }
-  }
 };

@@ -104,7 +104,7 @@ Since `sequelize-tools` lazy-loads and then retains a reference to the base conn
 
 Clone repo:
 
-    git clone git@github.com:tdumitrescu/sequelize-tools.git
+    git clone git@github.com:dimitri-koenig/sequelize-tools.git
 
 Install dependencies:
 

@@ -1,32 +1,32 @@
 {
-  "name": "sequelize-tools",
-  "version": "0.0.3",
-  "description": "Reduce Sequelize boilerplate/config",
-  "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tdumitrescu/sequelize-tools.git"
-  },
-  "keywords": [
-    "sequelize",
-    "sql",
-    "test",
-    "testing",
-    "configuration"
-  ],
-  "author": "ted dumitrescu <webdev@cmme.org> (http://cmme.org/tdumitrescu/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tdumitrescu/sequelize-tools/issues"
-  },
-  "homepage": "https://github.com/tdumitrescu/sequelize-tools",
-  "devDependencies": {
-    "expect.js": "~0.3.1",
-    "mocha": "~1.17.1",
-    "pg": "~2.11.0",
-    "sequelize": "~1.7.0-beta8"
-  }
+    "name": "sequelize-tools",
+    "version": "0.0.4",
+    "description": "Reduce Sequelize boilerplate/config",
+    "main": "index.js",
+    "scripts": {
+        "test": "node_modules/.bin/mocha test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dimitri-koenig/sequelize-tools.git"
+    },
+    "keywords": [
+        "sequelize",
+        "sql",
+        "test",
+        "testing",
+        "configuration"
+    ],
+    "author": "ted dumitrescu <webdev@cmme.org> (http://cmme.org/tdumitrescu/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dimitri-koenig/sequelize-tools/issues"
+    },
+    "homepage": "https://github.com/dimitri-koenig/sequelize-tools",
+    "devDependencies": {
+        "expect.js": "~0.3.1",
+        "mocha": "~2.2.5",
+        "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master",
+        "sequelize": "^3.3.2"
+    }
 }
