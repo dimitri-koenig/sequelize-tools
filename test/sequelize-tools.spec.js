@@ -61,4 +61,16 @@ describe('db', function () {
         });
     });
 
+    describe('reinit()', function () {
+        it('creates a new connection', function () {
+            var dc1 = db.defaultConnection();
+
+            db.reinit(function () {
+            });
+
+            var dc2 = db.defaultConnection();
+            expect(dc1).not.to.be(dc2);
+        });
+    });
+
 });
