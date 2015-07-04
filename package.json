@@ -1,6 +1,6 @@
 {
     "name": "sequelize-tools",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Reduce Sequelize boilerplate/config",
     "main": "index.js",
     "scripts": {
@@ -27,6 +27,7 @@
         "expect.js": "~0.3.1",
         "mocha": "~2.2.5",
         "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master",
-        "sequelize": "^3.3.2"
+        "sequelize": "^3.3.2",
+        "config": "^1.14.0"
     }
 }

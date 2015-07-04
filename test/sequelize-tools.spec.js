@@ -1,7 +1,6 @@
 'use strict';
 
 process.env.NODE_ENV = 'test';
-process.env.SEQUELIZE_DB_CONFIG = 'test/config/database.js';
 
 var expect = require('expect.js'),
     Path   = require('path'),

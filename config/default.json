@@ -1,0 +1,12 @@
+{
+    "dbConfig": {
+        "dbName": "sequelize_tools_test",
+        "user": null,
+        "password": null,
+        "options": {
+            "logging": false,
+            "dialect": "sqlite",
+            "storage": "./testdb.sqlite"
+        }
+    }
+}
